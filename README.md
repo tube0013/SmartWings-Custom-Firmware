@@ -44,7 +44,7 @@ The SDK is 2026.6.1 / Zigbee 9.1.1. The bootloader image's own version is 3.2.0;
 
 Download [Simplicity Commander from Silicon Labs](https://www.silabs.com/software-and-tools/simplicity-studio/simplicity-commander). Windows, macOS and Linux are supported. Add its executable directory to PATH or replace `commander` below with its full path. On Windows its filename is `commander.exe`; PowerShell needs `&` before a quoted executable path.
 
-Disconnect the motor for initial flashing. Power the module from regulated **3.3 V** with one power source and shared ground. Connect SWDIO (PA02), SWCLK (PA01), GND and target voltage reference; supply wiring depends on your debugger. The radio must never receive the motor pack's 10.8–12 V. See [hardware and pin mapping](docs/HARDWARE.md).
+Disconnect the motor for initial flashing. Power the module from regulated **3.3 V** with one power source and shared ground. Connect SWDIO (PA02), SWCLK (PA01), GND and target voltage reference; supply wiring depends on your debugger. The radio must never receive the motor pack's 10.8–12 V. See [hardware and pin mapping](docs/HARDWARE.md), including [carrier pinout and flashing photos](docs/HARDWARE.md#carrier-board-photograph).
 
 The examples assume one connected WSTK/J-Link and use the exact target below. This procedure assumes debug access is already unlocked. Do not erase or unlock a device without its backup.
 
