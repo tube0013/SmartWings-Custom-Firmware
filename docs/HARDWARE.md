@@ -31,7 +31,7 @@ The motor battery supply is separate from the 3.3 V radio supply. Do not backfee
 
 ![ZS13S radio module on the SmartWings carrier, with UART pads marked yellow and teal](images/carrier-module-pinout.jpg)
 
-The tested carrier is marked **MK-1 V1.0 / 20220505** and carries the Tuya ZS13S module containing the EFR32MG21. In this photograph, the RJ9 connector is at the top and the antenna connector is at the upper right. The owner's color marks identify the same UART signals at the module pads, the larger carrier pads and the RJ9 contacts:
+The tested carrier is marked **MK-1 V1.0 / 20220505** and carries the Tuya ZS13S module containing the EFR32MG21. In this photograph, the RJ9 connector is at the top and the antenna connector is at the upper right. The color marks identify the same UART signals at the module pads, the larger carrier pads and the RJ9 contacts:
 
 | Photograph marking | Signal | Module pad |
 | --- | --- | --- |
@@ -44,6 +44,6 @@ The corresponding soldered/marked carrier pins and pads are also accessible on t
 
 ![Bench flashing setup with an edge pogo-pin clip and separate positive and ground alligator clips](images/swd-flashing-connections.jpg)
 
-This photo shows the edge pogo-pin clip used for access to the module's debug pads, with separate red positive and black ground alligator clips supplying the carrier. The **positive alligator clip has a blob of solder on its tip** to make contact with the positive pin/pad. **Tape covers the negative pad on the left of that contact** to prevent the positive clip from shorting against it. These details describe the owner's bench fixture; the tape and solder are contact aids, not additional electrical connections.
+This photo shows the edge pogo-pin clip used for access to the module's debug pads, with separate red positive and black ground alligator clips supplying the carrier. The **positive alligator clip has a blob of solder on its tip** to make contact with the positive pin/pad. **Tape covers the negative pad on the left of that contact** to prevent the positive clip from shorting against it. These details describe a solderless bench fixture (outside the solder on the alligator clip — a small ball of aluminum foil was tested as well and worked, but solder was used for repeatability); the tape and solder are contact aids, not additional electrical connections.
 
 Use regulated **3.3 V** for the radio, a shared ground and the SWCLK/SWDIO mapping above. Wire colors on the pogo clip do not establish signal assignments. Confirm clip orientation, polarity and isolation before powering the module. When the motor is connected while the radio is independently powered, isolate its radio-supply conductor as described above.

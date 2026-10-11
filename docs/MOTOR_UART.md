@@ -8,7 +8,7 @@ We reverse-engineered the supplied **stock Zigbee radio firmware dumps**, tracin
 
 We then checked the interface with a two-channel USB logic analyzer and PulseView/Sigrok: D0 observed module TX → motor RX; D1 observed motor TX → module RX. Physical motor/remote actions and Zigbee commands supplied real traffic. Fifteen retained native recordings total **310 seconds**, sampled at **1 MHz**. Independent decoding checked packet bytes, length/XOR checksums, raw transitions, zero prefixes, repeated reports and timing rather than relying only on screenshots. These captures confirm the core lift command set and its motor responses, including exact final arrival at two percentage targets. They also confirm the leave/join exchange and stock initialization traffic.
 
-Later custom-firmware bench work added USB-UART simulation, real-motor commands, user-observed movement/Stop, remote-driven feedback, and pairing/wake tests. Synthetic UART injections verify the replacement parser's handling of fragments, corrupt packets, repeats and values; they are not evidence that a real motor emits those synthetic values. Host capture replay accepted **205 motor frames across the 15 recordings** with matching decoded results.
+Later custom-firmware bench work added USB-UART simulation, real-motor commands, observed movement/Stop, remote-driven feedback, and pairing/wake tests. Synthetic UART injections verify the replacement parser's handling of fragments, corrupt packets, repeats and values; they are not evidence that a real motor emits those synthetic values. Host capture replay accepted **205 motor frames across the 15 recordings** with matching decoded results.
 
 **Not every opcode found in a dump was physically validated.** The tables distinguish static-only paths and unknown meanings. In particular, motor-originated FB and the generic eight-byte lift/tilt handlers must not be described as logic-analyzer-confirmed usable commands.
 
@@ -17,7 +17,7 @@ Sanitized packet/timing excerpts and archive SHA-256 identifiers are provided in
 | Evidence label | Meaning |
 | --- | --- |
 | Static + captured | Found in the stock binary and observed in native logic recordings |
-| Bench confirmed | Also exercised with custom firmware and real hardware/user observations |
+| Bench confirmed | Also exercised with custom firmware and real hardware and observed behavior |
 | Static only | Code path found; physical motor effect has not been established |
 | Captured, meaning unknown | Bytes are real, but their purpose is not fully decoded |
 
@@ -172,7 +172,7 @@ The same three bytes can mean a request in one direction and a state notificatio
 
 In the reset/rejoin recording, motor F9 requests begin at 10.857670 s, FA requests at 11.026422 s, and the module's joined notification at 15.369364 s. UART confirms the request/notification exchange; HA/stack logs provide evidence of association and interview success. This is leave followed by fresh joining, not necessarily the Zigbee secured-rejoin operation.
 
-These bytes do not establish a CPU reset, full flash erase or removal of motor calibration/RF pairing. The owner supplied and exercised the normal pairing gestures: P1 held about six seconds and released after the second jog, or remote **P → Up → P**. Physical gestures act on the motor MCU; the radio cannot press the remote.
+These bytes do not establish a CPU reset, full flash erase or removal of motor calibration/RF pairing. The normal pairing gestures were tested: P1 held about six seconds and released after the second jog, or remote **P → Up → P**. Physical gestures act on the motor MCU; the radio cannot press the remote.
 
 Q17 implements motor requests through the transport/network callbacks, with a join window of approximately 60 seconds and state notifications. It does not treat every repetition as a separate reset.
 

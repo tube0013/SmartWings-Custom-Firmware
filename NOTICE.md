@@ -2,7 +2,7 @@
 
 This is a local Q17 source/configuration and binary snapshot, not a complete SDK distribution. The repository has no blanket MIT license. Selecting MIT for project-authored code does not relicense SDK components, derived examples or the compiled firmware as a whole.
 
-Original motor bridge code, standalone OTA guard and project tools/tests are candidates for MIT licensing, subject to the owner's selection. MIT allows commercial reuse and modification without requiring publication of changes, while retaining its copyright and license notice. See the [OSI MIT text](https://opensource.org/license/mit).
+Original motor bridge code, standalone OTA guard and project tools/tests are candidates for MIT licensing, subject to a license selection. MIT allows commercial reuse and modification without requiring publication of changes, while retaining its copyright and license notice. See the [OSI MIT text](https://opensource.org/license/mit).
 
 `app/app.c`, `app/smartwings_ota_policy.c`, `app/ota-client-policy.h` and multiple application/bootloader configuration headers carry Silicon Labs MSLA Source Code notices. They are modified vendor files, including motor-triggered joining and OTA/version guards. Retaining their notices alone does not grant public redistribution permission. Before publishing them, confirm the license supplied with the installed SDK and any applicable permission. The [current MSLA](https://www.silabs.com/about-us/legal/master-software-license-agreement) distinguishes ordinary Source Code from explicitly identified Silicon Labs Open Source Code; sections 4/5 restrict source redistribution, while section 7.2 grants rights for the latter category. These files do not identify themselves as Silicon Labs Open Source Code.
 
