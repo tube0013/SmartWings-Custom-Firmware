@@ -1,0 +1,144 @@
+project_name: smartwings_app
+label: SmartWings lift bench OTA
+package: zigbee
+category: Zigbee Application
+quality: production
+description: This is a Zigbee minimal SoC network-layer application suitable as a  starting
+  point for new application development.
+author: Silicon Laboratories, Inc.
+component:
+- id: sl_main
+- id: zigbee_debug_basic
+- id: zigbee_debug_print
+- id: zigbee_pro_leaf_stack
+- id: zigbee_zcl_framework_core
+- id: zigbee_network_steering
+- id: zigbee_scan_dispatch
+- id: zigbee_update_tc_link_key
+- id: zigbee_application_bootloader
+- id: clock_manager
+- id: toolchain_gcc_lto
+  condition:
+  - toolchain_gcc
+- id: toolchain_llvm_lto
+  condition:
+  - toolchain_llvm
+- id: EFR32MG21A020F768IM32
+- id: iostream_rtt
+- id: zigbee_end_device_support
+- id: zigbee_ota_client
+- id: zigbee_ota_storage_simple_eeprom
+- id: zigbee_ota_bootload
+- id: zigbee_ota_storage_simple
+- id: flash_storage
+- id: emlib_usart
+- id: zigbee_identify
+- id: zigbee_groups_server
+- id: zigbee_scenes
+- id: zigbee_reporting
+- id: gpiointerrupt
+configuration:
+- name: SLI_ZIGBEE_PRIMARY_NETWORK_DEVICE_TYPE
+  value: SLI_ZIGBEE_NETWORK_DEVICE_TYPE_SLEEPY_END_DEVICE
+- name: SLI_ZIGBEE_PRIMARY_NETWORK_SECURITY_TYPE
+  value: SLI_ZIGBEE_NETWORK_SECURITY_TYPE_3_0
+- name: SL_ZIGBEE_BINDING_TABLE_SIZE
+  value: 10
+- name: NVM3_DEFAULT_NVM_SIZE
+  value: 32768
+  condition:
+  - device_series_2
+- name: SL_PSA_ITS_SUPPORT_V1_DRIVER
+  value: 0
+- name: SL_PSA_ITS_SUPPORT_V2_DRIVER
+  value: 0
+- name: SL_PSA_ITS_SUPPORT_V3_DRIVER
+  value: 1
+- name: SL_ZIGBEE_STACK_RTOS_TASK_STACK_SIZE
+  value: 5800
+  condition:
+  - device_series_3
+- name: SL_ZIGBEE_APP_FRAMEWORK_RTOS_TASK_STACK_SIZE
+  value: 6000
+  condition:
+  - device_series_3
+- name: SL_ZIGBEE_AF_PLUGIN_ZCL_CLUSTER_DEFER_ATTRIBUTE_WRITES_TO_NVM_MS
+  value: 2000
+  condition:
+  - device_series_3
+- name: SL_ZIGBEE_AF_PLUGIN_OTA_STORAGE_SIMPLE_EEPROM_GECKO_BOOTLOADER_STORAGE_SUPPORT
+  value: USE_SPECIFIC_SLOT
+- name: SL_ZIGBEE_AF_PLUGIN_OTA_STORAGE_SIMPLE_EEPROM_SLOT_TO_USE
+  value: 0
+- name: SL_ZIGBEE_AF_PLUGIN_OTA_CLIENT_POLICY_IMAGE_TYPE_ID
+  value: 27309
+- name: SL_ZIGBEE_AF_PLUGIN_OTA_CLIENT_POLICY_FIRMWARE_VERSION
+  value: 17
+- name: SL_ZIGBEE_AF_PLUGIN_OTA_CLIENT_POLICY_HARDWARE_VERSION
+  value: 1
+- name: SL_ZIGBEE_AF_PLUGIN_OTA_CLIENT_POLICY_INCLUDE_HARDWARE_VERSION
+  value: 1
+- name: SL_BOOTLOADER_STORAGE_USE_CUSTOM_SIZE
+  value: 1
+- name: SL_BOOTLOADER_STORAGE_SIZE
+  value: 368640
+- name: SL_APPLICATION_VERSION
+  value: 17
+- name: SL_ZIGBEE_AF_PLUGIN_OTA_CLIENT_QUERY_DELAY_MINUTES
+  value: 1
+- name: SL_ZIGBEE_AF_PLUGIN_OTA_CLIENT_SERVER_DISCOVERY_DELAY_MINUTES
+  value: 1
+- name: SL_ZIGBEE_AF_PLUGIN_SCENES_TABLE_SIZE
+  value: 8
+- name: SL_ZIGBEE_AF_PLUGIN_SCENES_USE_TOKENS
+  value: 1
+- name: SL_ZIGBEE_APP_FRAMEWORK_STAY_AWAKE_WHEN_NOT_JOINED
+  value: 0
+- name: SL_POWER_MANAGER_INIT_EMU_EM2_DEBUG_ENABLE
+  value: 0
+- name: SL_ZIGBEE_DEBUG_STACK_GROUP_ENABLED
+  value: 0
+- name: SL_ZIGBEE_DEBUG_CORE_GROUP_ENABLED
+  value: 0
+- name: SL_ZIGBEE_DEBUG_APP_GROUP_ENABLED
+  value: 0
+- name: SL_ZIGBEE_DEBUG_ZCL_GROUP_ENABLED
+  value: 0
+source:
+- path: main.c
+  unless:
+  - cmsis_rtos2
+- path: app.c
+- path: motor/smartwings_motor.c
+- path: motor/smartwings_transport.c
+- path: motor/smartwings_zcl.c
+- path: smartwings_ota_policy.c
+config_file:
+- path: config/zcl/zcl_config.zap
+  file_id: zap_configuration_file_id
+  directory: zcl
+include:
+- path: ./
+- path: ./config
+readme:
+- path: ./readme.md
+ui_hints:
+  highlight:
+  - path: readme.md
+    focus: false
+filter:
+- name: Wireless Technology
+  value:
+  - Zigbee
+- name: Device Type
+  value:
+  - SoC
+- name: Project Difficulty
+  value:
+  - Advanced
+tag:
+- hwfilter:ram:64k
+- hwfilter:device:device_supports_zigbee
+- toolchain:gcc
+- toolchain:iar
+- toolchain:llvm

@@ -1,0 +1,26 @@
+{
+  "release": "Q17",
+  "version": 17,
+  "target": "EFR32MG21A020F768IM32",
+  "manufacturer": "TubesZBs Smartwings Custom",
+  "model": "WM25/L-Z",
+  "ota": {
+    "manufacturer_id": "0xFFFE",
+    "image_type": "0x6AAD",
+    "hardware_version": 1
+  },
+  "sdk": "2026.6.1",
+  "zigbee_sdk": "9.1.1",
+  "bootloader_table_version": "0x03020000 (3.2.0); image table, not SDK release label",
+  "loadable_application_bytes": 174704,
+  "loadable_bootloader_bytes": 10856,
+  "initial_combined_effect": "Bootloader + app + blank custom NVM3 at0xB6000..0xBDFFF; fresh join required",
+  "update_combined_effect": "Bootloader + app only; no explicit custom NVM reset",
+  "preserved": "No records in manufacturing0xBE000..0xBFFFF, User Data or DEVINFO",
+  "validation": "6AAD OTA and6757 initial SWD/readback/fresh join passed. Q17 addressed scenes passed on both; group recall failed in one two-shade trial. Cached OTA size issue remains.",
+  "security": "CRC integrity, unsigned; no enforced signatures or cryptographic rollback prevention",
+  "raw_binary_addresses": {
+    "smartwings-bootloader.bin": "0x00000000",
+    "smartwings-Q17-app.bin": "0x00004000"
+  }
+}

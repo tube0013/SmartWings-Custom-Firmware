@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<configurator>
+  <domain name="SmartWings Bench"/>
+  <cluster manufacturerCode="0xFFFE">
+    <name>SmartWings Configuration</name>
+    <domain>SmartWings Bench</domain>
+    <description>Bench firmware runtime configuration; intervals are milliseconds.</description>
+    <code>0xFC00</code>
+    <define>SMARTWINGS_CONFIGURATION_CLUSTER</define>
+    <client init="false" tick="false">true</client>
+    <server init="false" tick="false">true</server>
+    <attribute side="server" code="0x0000" define="SW_IDLE_POLL_INTERVAL_MS" type="INT16U" min="250" max="1000" writable="true" default="250" optional="false">idle poll interval ms</attribute>
+    <attribute side="server" code="0x0001" define="SW_FAST_POLL_INTERVAL_MS" type="INT16U" writable="false" default="100" optional="false">fast poll interval ms</attribute>
+    <attribute side="server" code="0xFFFD" define="SW_CONFIG_REVISION" type="INT16U" writable="false" default="1" optional="false">configuration revision</attribute>
+  </cluster>
+</configurator>

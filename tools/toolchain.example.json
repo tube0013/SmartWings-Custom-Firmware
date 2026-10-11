@@ -1,0 +1,13 @@
+{
+  "sdk": "/path/to/simplicity-sdk-2026.6.1",
+  "gcc": "/path/to/gcc-arm-14.2.rel1",
+  "cmake": "/path/to/cmake",
+  "ninja": "/path/to/ninja",
+  "zap": "/path/to/zap",
+  "commander": "/path/to/commander",
+  "slc": [
+    "/path/to/java",
+    "-jar",
+    "/path/to/slc.jar"
+  ]
+}

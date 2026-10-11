@@ -1,0 +1,30 @@
+{
+  "device": "EFR32MG21A020F768IM32",
+  "flash_bytes": 786432,
+  "erase_page_bytes": 8192,
+  "bootloader": {
+    "start": 0,
+    "end_exclusive": 16384
+  },
+  "application": {
+    "start": 16384,
+    "end_exclusive": 376832
+  },
+  "slot0": {
+    "start": 376832,
+    "size": 360448
+  },
+  "nvm3": {
+    "start": 745472,
+    "size": 32768
+  },
+  "reserved_gap": {
+    "start": 737280,
+    "end_exclusive": 745472
+  },
+  "status": "Q17 ELF/map and initial image ranges checked; hardware installation readback passed",
+  "manufacturing_tokens": {
+    "start": 778240,
+    "size": 8192
+  }
+}

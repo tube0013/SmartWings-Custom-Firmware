@@ -1,0 +1,8 @@
+build/
+backups/
+*.local.json
+__pycache__/
+*.pyc
+.DS_Store
+*.pem
+*.key

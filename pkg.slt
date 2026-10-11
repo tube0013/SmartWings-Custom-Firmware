@@ -1,0 +1,8 @@
+version = "1"
+[dependency]
+simplicity-sdk = "2026.6.1"
+gcc-arm-none-eabi = "14.2.rel1"
+cmake = "3.30.2"
+ninja = "1.12.1"
+slc-cli = "6.0.25"
+zap = "2026.06.17"
