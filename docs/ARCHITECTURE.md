@@ -1,5 +1,7 @@
 # Motor and Zigbee architecture
 
+For complete command/response formats and the distinction between firmware analysis, logic-analyzer confirmation and unverified paths, see the [motor UART reference](MOTOR_UART.md).
+
 ```mermaid
 flowchart LR
   HA[ZHA or Zigbee coordinator] <-->|Zigbee ZCL| RADIO[EFR32MG21 sleepy end device]

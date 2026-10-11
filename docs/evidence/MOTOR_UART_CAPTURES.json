@@ -1,0 +1,4791 @@
+{
+  "scope": "Original stock-radio logic-analyzer captures, 2026-10-08; sanitized packet/timing excerpts. Native recordings remain in the research archive.",
+  "baud": 9600,
+  "format": "8N1, idle high, LSB first",
+  "sample_rate_hz": 1000000,
+  "capture_count": 15,
+  "duration_s": 310.0,
+  "stock_mainflash_sha256": "69701ccc5a28a407254ee5ed2850aed47304e56e53d9a26cb88edfae9ac40ac8",
+  "captures": [
+    {
+      "archive_sha256": "171b06bd0b396bba7bbd07981d91c7a40baaa9c7747e833d8c9501b47b81df97",
+      "logic_sha256": "390d5dac420bd75ed7942a34781a9748cde321237f4a2a489386d03eaa850b49",
+      "duration_s": 10.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 0,
+          "raw_edge_count": 0,
+          "records": []
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 78,
+          "raw_edge_count": 306,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 3.333819,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 3.339587,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                19,
+                0,
+                239
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 3.389848,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 3.395858,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                19,
+                0,
+                239
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 3.446169,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 3.452139,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                19,
+                0,
+                239
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 3.802975,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 3.808937,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 3.859242,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 3.865228,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 3.915519,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 3.921524,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.32557,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.331188,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                36,
+                180,
+                108
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.381489,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.38746,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                36,
+                180,
+                108
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.437775,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.44375,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                36,
+                180,
+                108
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.794614,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.800559,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.850857,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.856832,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.907191,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.913104,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_sha256": "3218f0cef76f83ee8eaaaf2dba1e1f1c54ff5be5798201c1f569bc2f77d2bf6f",
+      "logic_sha256": "1ae15d5d91994bdf2fb2d06bc86af09534dccaf3279dba5fea23d1d794fcf7d5",
+      "duration_s": 20.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 0,
+          "raw_edge_count": 0,
+          "records": []
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 78,
+          "raw_edge_count": 276,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.1036,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.109241,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                23,
+                0,
+                235
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.159514,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.165506,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                23,
+                0,
+                235
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.215769,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.22177,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                23,
+                0,
+                235
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.576066,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.58151,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.631757,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.637757,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.688018,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.694013,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.335176,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.340977,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                0,
+                0,
+                252
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.391276,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.397247,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                0,
+                0,
+                252
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.447601,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.453527,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                0,
+                0,
+                252
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.804332,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.810259,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.860545,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.866539,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.916806,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.922795,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_sha256": "34e74e08ea7cfb54dbaf79e3179ae35364b310861633caa7bbedffc730ce7575",
+      "logic_sha256": "c40158a67b3975173517215f1f2c0580ea68718d6c60822ebf28bb4044e98a2e",
+      "duration_s": 20.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 0,
+          "raw_edge_count": 0,
+          "records": []
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 102,
+          "raw_edge_count": 402,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.539444,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.545237,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                12,
+                0,
+                240
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.595471,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.601509,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                12,
+                0,
+                240
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.651804,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.657797,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                12,
+                0,
+                240
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 2.008672,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 2.014643,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 2.064938,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 2.070927,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 2.121214,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 2.127222,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 16.788875,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 16.794621,
+              "byte_values": [
+                7,
+                245,
+                30,
+                32,
+                77,
+                0,
+                129
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 16.844927,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 16.850907,
+              "byte_values": [
+                7,
+                245,
+                30,
+                32,
+                77,
+                0,
+                129
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 16.901203,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 16.907199,
+              "byte_values": [
+                7,
+                245,
+                30,
+                32,
+                77,
+                0,
+                129
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 16.957648,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 16.963501,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                77,
+                180,
+                5
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 17.013806,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 17.019788,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                77,
+                180,
+                5
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 17.070066,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 17.076069,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                77,
+                180,
+                5
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 17.426961,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 17.432924,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 17.483216,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 17.489214,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 17.539586,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 17.545504,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_sha256": "9d925e6fe1987eef10ffce79ef68a5eeadd70c47d58edc1b4033be6c18636261",
+      "logic_sha256": "3be904537ddd1d1bfe732ca0a3b335030050e7fe09f2bac671cb49bd298d75b5",
+      "duration_s": 20.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 0,
+          "raw_edge_count": 0,
+          "records": []
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 39,
+          "raw_edge_count": 162,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 9.792731,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 9.798221,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                100,
+                180,
+                44
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 9.848484,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 9.854487,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                100,
+                180,
+                44
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 9.90477,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 9.910754,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                100,
+                180,
+                44
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 10.261539,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 10.267481,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 10.317786,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 10.323759,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 10.374116,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 10.380044,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_sha256": "c35faa2ae4d7d83b0b2bcc37179b40a794eee2f1956e1119dfe0029294958fa9",
+      "logic_sha256": "6cb856d9cca3cdeeaae8f389fc12d05f33474f543b77f3bdfaed72da0bd09880",
+      "duration_s": 10.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 0,
+          "raw_edge_count": 0,
+          "records": []
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 204,
+          "raw_edge_count": 882,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 2.488315,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 2.493553,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                41,
+                180,
+                97
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 2.543796,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 2.549785,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                41,
+                180,
+                97
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 2.600079,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 2.606068,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                41,
+                180,
+                97
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 2.957072,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 2.963041,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 3.013357,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 3.019354,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 3.069733,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 3.075675,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 4.93291,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 4.938772,
+              "byte_values": [
+                7,
+                245,
+                30,
+                32,
+                51,
+                180,
+                75
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 4.989071,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 4.995058,
+              "byte_values": [
+                7,
+                245,
+                30,
+                32,
+                51,
+                180,
+                75
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.045439,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.051357,
+              "byte_values": [
+                7,
+                245,
+                30,
+                32,
+                51,
+                180,
+                75
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.101814,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.107634,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                51,
+                180,
+                123
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.15792,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.163914,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                51,
+                180,
+                123
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.214276,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.220199,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                51,
+                180,
+                123
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.570981,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.576935,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.627212,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.633216,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.683498,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.689491,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.772108,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.777894,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                51,
+                180,
+                123
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.828303,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.834204,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                51,
+                180,
+                123
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.884501,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.890484,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                51,
+                180,
+                123
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 6.244341,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 6.250295,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 6.300604,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 6.306583,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 6.356943,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 6.362878,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.734278,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.740245,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                39,
+                180,
+                111
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.790517,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.796522,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                39,
+                180,
+                111
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.846876,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.852805,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                39,
+                180,
+                111
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.903253,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.909072,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                38,
+                0,
+                218
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.959363,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.96534,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                38,
+                0,
+                218
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 9.015609,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 9.021619,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                38,
+                0,
+                218
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 9.372344,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 9.378295,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 9.428649,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 9.434573,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 9.48487,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 9.490838,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_sha256": "cc75480e5660296a83c606587bfe447a592e9433931d6da601a65f88764e14a6",
+      "logic_sha256": "c9fded958642705a8a97f0ea53470c8b8d1ee87375c683f305557f8e1c361fa4",
+      "duration_s": 10.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 3,
+          "raw_edge_count": 12,
+          "records": [
+            {
+              "kind": "length_framed_packet",
+              "start_s": 4.057196,
+              "byte_values": [
+                3,
+                2,
+                1
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 0,
+          "raw_edge_count": 0,
+          "records": []
+        }
+      ]
+    },
+    {
+      "archive_sha256": "ddba8f558086e9b9b5dc3320d8f72318108831351d06ecdb99981a54c49bbe98",
+      "logic_sha256": "05b92e4ea53db12cc0070abeeb774430fc5c3d132e01906a7ae6063a1030e8d5",
+      "duration_s": 10.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 0,
+          "raw_edge_count": 0,
+          "records": []
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 63,
+          "raw_edge_count": 240,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 0.94695,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 0.952878,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                38,
+                0,
+                218
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.003104,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.009137,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                38,
+                0,
+                218
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.059429,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.065413,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                38,
+                0,
+                218
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.416304,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.422268,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.472657,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.478549,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.528829,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.534832,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 9.841231,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 9.846564,
+              "byte_values": [
+                7,
+                245,
+                30,
+                32,
+                76,
+                0,
+                128
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 9.896919,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 9.902849,
+              "byte_values": [
+                7,
+                245,
+                30,
+                32,
+                76,
+                0,
+                128
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 9.953128,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 9.959118,
+              "byte_values": [
+                7,
+                245,
+                30,
+                32,
+                76,
+                0,
+                128
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_sha256": "de93c853376f9f830bb24142d9afeec3f825f863999b6aec520acea676536b27",
+      "logic_sha256": "2ad0819b1aa5a36529c12a72ae3ecd64b82f46ada969d8996e3da918cc45fe8e",
+      "duration_s": 10.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 0,
+          "raw_edge_count": 0,
+          "records": []
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 102,
+          "raw_edge_count": 426,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 0.883656,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 0.889119,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                75,
+                180,
+                3
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 0.939386,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 0.945369,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                75,
+                180,
+                3
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 0.995655,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.001655,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                75,
+                180,
+                3
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.352567,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.358534,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.408829,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.414825,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 1.465124,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 1.471132,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 7.623282,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 7.629274,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                46,
+                180,
+                102
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 7.679647,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 7.685565,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                46,
+                180,
+                102
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 7.735864,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 7.741856,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                46,
+                180,
+                102
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 7.792323,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 7.798149,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                46,
+                0,
+                210
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 7.848468,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 7.854464,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                46,
+                0,
+                210
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 7.904769,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 7.910761,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                46,
+                0,
+                210
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.261758,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.26766,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.317979,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.32396,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.374279,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.380266,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_sha256": "e8b146626c1294f4d1a1d89507dab7d05786e268858ce6de3101dc45b2b4c343",
+      "logic_sha256": "4b6b7604f07c9337282b8ab6fed94d284fb8e68c2004463dfbf33b96f7534223",
+      "duration_s": 20.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 0,
+          "raw_edge_count": 0,
+          "records": []
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 78,
+          "raw_edge_count": 312,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 2.140659,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 2.146198,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                80,
+                0,
+                172
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 2.196442,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 2.202435,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                80,
+                0,
+                172
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 2.252732,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 2.258723,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                80,
+                0,
+                172
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 2.609738,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 2.615671,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 2.665974,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 2.671975,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 2.722295,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 2.728295,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.790926,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.796594,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                100,
+                180,
+                44
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.846869,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.85288,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                100,
+                180,
+                44
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 8.903186,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 8.90918,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                100,
+                180,
+                44
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 9.260137,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 9.266067,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 9.31638,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 9.322355,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 9.37274,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 9.378658,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_sha256": "f730e64c7204bd7326c943ff25c23208a0cf99d3085b512e93e31597e43cbaa6",
+      "logic_sha256": "02c1157b2940d931c12596087e1a134078395706b2bf23f350b6e05b2b3dc975",
+      "duration_s": 10.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 14,
+          "raw_edge_count": 90,
+          "records": [
+            {
+              "kind": "raw_startup_sequence",
+              "start_s": 4.682652,
+              "byte_values": [
+                102,
+                102,
+                17,
+                34,
+                51,
+                68,
+                85,
+                102
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 4.691971,
+              "byte_values": [
+                3,
+                250,
+                249
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 7.060531,
+              "byte_values": [
+                3,
+                250,
+                249
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 4,
+          "raw_edge_count": 32,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 7.063719,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 7.06889,
+              "byte_values": [
+                3,
+                246,
+                245
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_sha256": "fd92020fb4c0f5662af762a3f9b9b35411bf4f43a7715524fbaa66a54490ef36",
+      "logic_sha256": "bb75b02857133cbf79c4e06625baf4882dcc6e23e4fd76b4f0e4a9760eb441ea",
+      "duration_s": 100.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 37,
+          "raw_edge_count": 126,
+          "records": [
+            {
+              "kind": "length_framed_packet",
+              "start_s": 10.918166,
+              "byte_values": [
+                3,
+                251,
+                248
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 10.921291,
+              "byte_values": [
+                3,
+                251,
+                248
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 10.973473,
+              "byte_values": [
+                3,
+                251,
+                248
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 15.369364,
+              "byte_values": [
+                3,
+                250,
+                249
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 59.186123,
+              "byte_values": [
+                3,
+                1,
+                2
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 64.162154,
+              "byte_values": [
+                3,
+                3,
+                0
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 72.126398,
+              "byte_values": [
+                3,
+                2,
+                1
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 82.082132,
+              "byte_values": [
+                3,
+                3,
+                0
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 96.013835,
+              "byte_values": [
+                13,
+                241,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                64,
+                70,
+                0,
+                254
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 357,
+          "raw_edge_count": 1482,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 10.851668,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 10.85767,
+              "byte_values": [
+                3,
+                249,
+                250
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 10.907924,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 10.913918,
+              "byte_values": [
+                3,
+                249,
+                250
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 10.964258,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 10.970178,
+              "byte_values": [
+                3,
+                249,
+                250
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 11.02045,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 11.026422,
+              "byte_values": [
+                3,
+                250,
+                249
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 11.076666,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 11.082673,
+              "byte_values": [
+                3,
+                250,
+                249
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 11.13293,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 11.138924,
+              "byte_values": [
+                3,
+                250,
+                249
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 12.257013,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 12.262847,
+              "byte_values": [
+                3,
+                250,
+                249
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 12.313094,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 12.319089,
+              "byte_values": [
+                3,
+                250,
+                249
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 12.369362,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 12.375335,
+              "byte_values": [
+                3,
+                250,
+                249
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 15.379445,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 15.384802,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                21,
+                180,
+                93
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 15.435161,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 15.441087,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                21,
+                180,
+                93
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 15.491352,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 15.497334,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                21,
+                180,
+                93
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 15.847957,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 15.853889,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 15.904135,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 15.910141,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 15.960472,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 15.966398,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 18.003005,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 18.008675,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                21,
+                180,
+                93
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 18.058965,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 18.06495,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                21,
+                180,
+                93
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 18.191794,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 18.197587,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                21,
+                180,
+                93
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 18.548404,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 18.554338,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 18.604632,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 18.610619,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 18.660985,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 18.666911,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 59.189482,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 59.1947,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                21,
+                180,
+                93
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 59.244996,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 59.250992,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                21,
+                180,
+                93
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 59.301274,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 59.30728,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                21,
+                180,
+                93
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 59.658201,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 59.664172,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 59.714485,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 59.720468,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 59.770853,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 59.77678,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 64.16553,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 64.171295,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                2,
+                180,
+                74
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 64.221629,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 64.227561,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                2,
+                180,
+                74
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 64.277826,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 64.283822,
+              "byte_values": [
+                7,
+                245,
+                30,
+                16,
+                2,
+                180,
+                74
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 64.334231,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 64.340081,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                2,
+                0,
+                254
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 64.390347,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 64.396348,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                2,
+                0,
+                254
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 64.446599,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 64.452603,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                2,
+                0,
+                254
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 64.803426,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 64.809321,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 64.859601,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 64.865572,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 64.965559,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 64.971072,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 72.129775,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 72.135187,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                2,
+                0,
+                254
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 72.185442,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 72.191424,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                2,
+                0,
+                254
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 72.241681,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 72.247665,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                2,
+                0,
+                254
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 72.598352,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 72.604315,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 72.654664,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 72.660597,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 72.710868,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 72.71686,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 82.085628,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 82.091323,
+              "byte_values": [
+                7,
+                245,
+                30,
+                32,
+                45,
+                0,
+                225
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 82.141579,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 82.147575,
+              "byte_values": [
+                7,
+                245,
+                30,
+                32,
+                45,
+                0,
+                225
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 82.197934,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 82.203848,
+              "byte_values": [
+                7,
+                245,
+                30,
+                32,
+                45,
+                0,
+                225
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 82.254288,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 82.260109,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                45,
+                180,
+                101
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 82.31038,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 82.316364,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                45,
+                180,
+                101
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 82.3667,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 82.372627,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                45,
+                180,
+                101
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 82.723269,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 82.729212,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 82.779547,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 82.785473,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 82.835719,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 82.841716,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 96.027629,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 96.032797,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                45,
+                180,
+                101
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 96.142826,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 96.148373,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                45,
+                180,
+                101
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 96.19876,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 96.204636,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                45,
+                180,
+                101
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 96.555339,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 96.56129,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 96.611554,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 96.617544,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 96.667808,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 96.673808,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_sha256": "745d6d48f57a4e8872955d6883c69b0437fe8c12024069b7adff72a0d63cb461",
+      "logic_sha256": "2b6f4e1d2eb45423a1ce2df0eeac2e865ff33dd2617b67e68c342a7b07c7b94a",
+      "duration_s": 20.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 3,
+          "raw_edge_count": 12,
+          "records": [
+            {
+              "kind": "length_framed_packet",
+              "start_s": 16.252644,
+              "byte_values": [
+                3,
+                2,
+                1
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 39,
+          "raw_edge_count": 144,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 16.256015,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 16.261347,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                14,
+                126,
+                140
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 16.311703,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 16.317615,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                14,
+                126,
+                140
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 16.367888,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 16.373879,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                14,
+                126,
+                140
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 16.724739,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 16.730648,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 16.780901,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 16.786906,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 16.837177,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 16.843168,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_sha256": "0822d60e911948a6935f241201d81931b30410274aa2087bce1fdba40da447eb",
+      "logic_sha256": "e2e5f1bae009a6e27eef4b3521bcb489842634914997370b408dd93344607d95",
+      "duration_s": 20.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 13,
+          "raw_edge_count": 44,
+          "records": [
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.109623,
+              "byte_values": [
+                13,
+                241,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                64,
+                20,
+                0,
+                172
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 78,
+          "raw_edge_count": 300,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.123435,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.128529,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                55,
+                180,
+                127
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.178841,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.184769,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                55,
+                180,
+                127
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.234995,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.240998,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                55,
+                180,
+                127
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.591612,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.597502,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.647789,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.65375,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 5.704016,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 5.710002,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 15.210038,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 15.215853,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                20,
+                0,
+                232
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 15.266201,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 15.272134,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                20,
+                0,
+                232
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 15.322405,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 15.328394,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                20,
+                0,
+                232
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 15.679119,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 15.685014,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 15.735246,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 15.741254,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 15.791521,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 15.797502,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_sha256": "65ec96f948fd2085ad66e0abd58c0c9ba72c658875e316673fae0dbf44d3d886",
+      "logic_sha256": "ec8c91ffd47893060f78cab5147f5426e30ca94cb6dd3a5d86326adee7acaa10",
+      "duration_s": 20.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 13,
+          "raw_edge_count": 42,
+          "records": [
+            {
+              "kind": "length_framed_packet",
+              "start_s": 11.068566,
+              "byte_values": [
+                13,
+                241,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                64,
+                55,
+                0,
+                143
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 78,
+          "raw_edge_count": 324,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 11.082415,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 11.08805,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                35,
+                180,
+                107
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 11.138382,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 11.144291,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                35,
+                180,
+                107
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 11.194551,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 11.200543,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                35,
+                180,
+                107
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 11.55124,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 11.557195,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 11.607535,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 11.613443,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 11.663692,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 11.669696,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 17.6453,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 17.65097,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                55,
+                180,
+                127
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 17.701245,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 17.707226,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                55,
+                180,
+                127
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 17.757476,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 17.763482,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                55,
+                180,
+                127
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 18.114131,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 18.120063,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 18.170416,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 18.176336,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 18.226615,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 18.232612,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive_sha256": "c14166f7c00898ad297e0e895a711f85339009c85c9ac4bc0bfe1b773ff8af14",
+      "logic_sha256": "3c979dd23a8eca86c84b2bdce93533bc3c9a5b5b8457e2773d9dfb54d567dbf1",
+      "duration_s": 10.0,
+      "sample_rate_hz": 1000000.0,
+      "channels": [
+        {
+          "channel": "D0",
+          "direction": "module_to_motor",
+          "decoded_byte_count": 3,
+          "raw_edge_count": 10,
+          "records": [
+            {
+              "kind": "length_framed_packet",
+              "start_s": 3.766284,
+              "byte_values": [
+                3,
+                3,
+                0
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        },
+        {
+          "channel": "D1",
+          "direction": "motor_to_module",
+          "decoded_byte_count": 39,
+          "raw_edge_count": 156,
+          "records": [
+            {
+              "kind": "standalone_zero",
+              "start_s": 3.769712,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 3.775546,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                70,
+                180,
+                14
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 3.82578,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 3.831764,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                70,
+                180,
+                14
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 3.882002,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 3.887997,
+              "byte_values": [
+                7,
+                245,
+                14,
+                0,
+                70,
+                180,
+                14
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 4.23852,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 4.244439,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 4.294672,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 4.300673,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            },
+            {
+              "kind": "standalone_zero",
+              "start_s": 4.350917,
+              "byte_values": [
+                0
+              ]
+            },
+            {
+              "kind": "length_framed_packet",
+              "start_s": 4.35689,
+              "byte_values": [
+                4,
+                248,
+                100,
+                152
+              ],
+              "length_valid": true,
+              "checksum_valid": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
