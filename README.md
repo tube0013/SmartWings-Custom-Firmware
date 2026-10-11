@@ -9,6 +9,7 @@ SRAM Size      : 64 kB
 
 This repository contains an application, custom Gecko bootloader, initial combined image, configuration/source inputs and host tests. It is an independent project not related to or affiliated with Smartwings. Compatibility with other motor models is unverified. Vendor-source redistribution permissions still need confirmation before publishing this snapshot; see [licensing](NOTICE.md).
 
+AI was used to create this README and all accompaning documentation. AI generated content was checked and edited for accuracy and clearness. All research, implentation and testing was done with my prompting and guidence.
 
 ![Q17 device page with Zigbee address redacted](docs/images/ha-device-redacted.png)
 
