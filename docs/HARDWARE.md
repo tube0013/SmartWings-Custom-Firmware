@@ -23,13 +23,3 @@ The [Tuya ZS13S datasheet](https://developer.tuya.com/en/docs/iot/zs13s-module-d
 UART adapter TX connects to module RX, and adapter RX to module TX, with shared ground and 3.3 V signaling. A receive-only capture leaves adapter TX disconnected. Pin map is for the tested module; confirm orientation before applying power. SWD requires target power/reference and shared ground even when only two debug signals are used.
 
 The motor battery supply is separate from the 3.3 V radio supply. Do not backfeed power between the motor and debugger. Bench tests with independent radio power isolated the radio supply conductor of the RJ9 cable and verified isolation with a continuity meter. A taped contact must be rechecked after reconnecting; proper cable modification is preferable for a durable fixture.
-
-## Affiliate status — checked 2026-10-11
-
-The links above are ordinary manufacturer links; no affiliate tracking has been added. The owner already has Amazon Associates access. Exact tracking links and suitable product listings are still needed.
-
-I could not verify a publicly documented purchase-commission affiliate program for **Mouser or DigiKey** from official sources. Do not interpret this as proof that no private arrangement exists. Distributor supplier, design-referral and systems-integrator programs are different from consumer affiliate programs. Ask the distributor directly before claiming an affiliate relationship.
-
-AliExpress has an official affiliate program with a [published service agreement](https://cdn.contract.alibaba.com/terms/b_platform_service_agreement/20240912121955398/20240912121955398.html?lng=en). The owner's enrollment status has not been verified. Use links generated through the enrolled affiliate account rather than adding guessed tracking parameters.
-
-When actual affiliate links are added, put this disclosure before the shopping links: **“Some links below are affiliate links. I may earn a commission from qualifying purchases.”** Mark each relevant link “affiliate link.” For Amazon add its required wording: **“As an Amazon Associate I earn from qualifying purchases.”** Keep manufacturer datasheets and instructions as direct links. No affiliation with SmartWings or Silicon Labs is implied.
