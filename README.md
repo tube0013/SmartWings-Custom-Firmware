@@ -7,7 +7,7 @@ Part Number    : EFR32MG21A020F768IM32
 Flash Size     : 768 kB
 SRAM Size      : 64 kB
 
-This repository contains an application, custom Gecko bootloader, initial combined image, configuration/source inputs and host tests. It is an independent project not related to or affiliated with Smartwings. Compatibility with other motor models is unverified. Vendor-source redistribution permissions still need confirmation before publishing this snapshot; see [licensing](NOTICE.md).
+This repository contains an application, custom Gecko bootloader, initial combined image, configuration/source inputs and host tests. It is an independent project not related to or affiliated with Smartwings. Compatibility with other motor models is unverified.
 
 AI was used to create this README and all accompaning documentation. AI generated content was checked and edited for accuracy and clearness. All research, implentation and testing was done with my prompting and guidence.
 
@@ -108,4 +108,8 @@ Inverted mode persisted after power cycling. Addressed scenes and scene/group pe
 
 ## Source and build
 
-[`app`](app) includes the SLCP, application callbacks, motor bridge, configuration headers, ZAP configuration and custom cluster XML. [`bootloader`](bootloader) includes its SLCP, post-build profile and configuration. SDK source, generated autogen/CMake projects, local tool paths and stock backups are excluded. See [build instructions](docs/BUILDING.md), [UART architecture](docs/ARCHITECTURE.md), [licensing boundary](NOTICE.md), and [hardware/affiliate notes](docs/HARDWARE.md).
+[`app`](app) includes the SLCP, application callbacks, motor bridge, configuration headers, ZAP configuration and custom cluster XML. [`bootloader`](bootloader) includes its SLCP, post-build profile and configuration. SDK source, generated autogen/CMake projects, local tool paths and stock backups are excluded. See [build instructions](docs/BUILDING.md), [UART architecture](docs/ARCHITECTURE.md), [license](LICENSE.txt), and [hardware/affiliate notes](docs/HARDWARE.md).
+
+## License
+
+This project is licensed under the [Apache License, Version 2.0](LICENSE.txt). Existing third-party license headers are retained in their respective files.

@@ -9,4 +9,4 @@
 * Only offline tools were run for packaging. No device flashing, coordinator configuration or motor motion was performed.
 * Source portability changes only: remove generated `slc_args.json`, replace local SDK paths in ZAP with rebased placeholders, add documentation/tooling. Published release images were preserved.
 
-This validates packaging and build reproducibility on the installed Mac toolchain. It does not add hardware qualification beyond the earlier Q17 bench tests. Vendor redistribution review and original-code license selection remain pending; this repository has not been published remotely.
+This validates packaging and build reproducibility on the installed Mac toolchain. It does not add hardware qualification beyond the earlier Q17 bench tests.

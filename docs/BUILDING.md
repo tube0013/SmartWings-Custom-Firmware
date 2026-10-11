@@ -18,5 +18,3 @@ The checked-in ZAP uses `${SDK_ROOT}` placeholders for portability; the script r
 For a new version, update both SLCP application/OTA version settings, corresponding config headers and ZAP identity/OTA attributes, then requalify the image. The current script deliberately packages version 17 only. Bootloader partition changes and NVM migrations require separate design/validation; source compile success is not hardware qualification.
 
 The tested bootloader binaries are the raw `cmake_gcc/build/base` outputs. Do not silently replace them with differently transformed `*-crc` artifacts produced by a post-build profile.
-
-This source snapshot is local pending licensing review. See `NOTICE.md` before distributing vendor-derived source.
